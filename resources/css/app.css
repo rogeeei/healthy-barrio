@@ -1,0 +1,35 @@
+/* resources/css/app.css */
+body.index {
+    background: linear-gradient(to bottom, #0FD5B1, #4BD0FA);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.index_buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.index_btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.index_btn:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.seal {
+    max-width: 100%;
+    height: auto;
+}
